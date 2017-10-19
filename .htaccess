@@ -1,0 +1,8 @@
+AddType text/html .shtml .html .htm
+AddHandler server-parsed .shtml .html .htm
+Options -Indexes FollowSymLinks Includes
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^ect\.downstate\.edu$ [NC]
+RewriteRule ^ http://act.downstate.edu%{REQUEST_URI} [L,R=301,NE]

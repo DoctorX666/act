@@ -1,0 +1,17 @@
+/* Stylesheets common to all pages in the Downstate website */
+
+@import url("http://is.downstate.edu/_css/ds_global_replace.css");
+@import url("http://is.downstate.edu/_css/ds_header.css");
+@import url("http://is.downstate.edu/_css/base.css");
+@import url("http://is.downstate.edu/_css/columns.css");
+@import url("http://is.downstate.edu/_css/faculty.css");
+@import url("http://is.downstate.edu/_css/menu.css");
+@import url("http://is.downstate.edu/_css/roundcorner.css");
+@import url("http://sls.downstate.edu/css/link_icons2.css");
+
+@import url("/css/act_custom.css");
+@import url("/css/table.css");
+@import url("/css/font-awesome.min.css");
+
+@import url("https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");

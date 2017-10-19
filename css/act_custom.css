@@ -1,0 +1,267 @@
+/****************************************************************
+    SUNY Downstate Medical Center
+	Custom Stylesheet
+	v2.6
+	by Brett Laurance
+	Last updated May 26, 2015
+	
+	This is the secondary stylesheet for the SUNY Downstate web
+	site. 
+	
+	It may be used to customize the color scheme of your web site.
+			
+*/
+
+html,body { background-color: #808b8c!important;}
+
+#wrapper {
+	background-image: url(/images/sidebar_background.gif);
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+#content { border: 0; }
+
+/***************************************************************
+    NAVIGATION BAR STYLES
+	This code controls the color scheme of the navigation bar.
+ ***************************************************************/
+
+ul.MenuBar .site-home-button2 a:link,
+ul.MenuBar .site-home-button2 a:visited {
+	background-color: #7d96bf;
+	color: #FFF;
+	font-weight: bold;
+}
+ul.MenuBar .site-home-button2 a:hover,
+ul.MenuBar .site-home-button2 a:active {
+	background-color: #06F;
+	color: #FFF;
+	border-bottom: 1px #999 dotted;
+}
+
+/***************************************************************
+/* REDEFINED HTML TAGS
+ ***************************************************************/
+
+#content p,
+#content li,
+#content td,
+#content th,
+#content dd,
+#content dt,
+#content form,
+#content blockquote,
+#content div,
+#content span { 
+	font-family: 'Open Sans' serif !important;	
+	line-height: 1.8em;
+} 
+#content a:link,
+#content a:visited  {	
+	color: inherit; 
+	text-decoration: none;
+	border-bottom: 1px #555 dotted; }
+#content a:hover,
+#content a:active {
+	color: #F60;
+	text-decoration: none;
+	border-bottom: 1px #f60 solid; }
+#content a img { border:0 !important; 	margin-bottom: -0.85em; }
+
+#content ul.spaced li,
+#content ol.spaced li { margin-bottom: .66em; }
+
+#content ul,
+#content ol,
+#content dl
+ { margin-bottom: 1em; }
+
+#content dt {
+	margin: 12px 0 6px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#content dd {
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+#content address {
+	font-family: inherit;
+	font-style: normal;
+	margin-left: 30px;  }
+#content address:first-line {	font-weight: bold; }
+
+/***************************************************************
+/* HEADING STYLES
+	This code allows the customization of the built-in headers.
+/***************************************************************/
+
+#content h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', 'Lucida Grande', Tahoma, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	line-height: 1.3em;
+	margin: 1em 0; 
+	background: transparent; }
+#content h1, h2, h3 { color: #666699; }
+#content h4, h5, h6 { color: #333; }
+#content h1 {
+	font-size: 1.6em;
+	text-transform: uppercase; }
+#content h2 {
+	font-size: 1.3em;
+	padding: 3px 0;
+	border-top: #DADBEA 1px solid;
+	border-bottom: #DADBEA 1px solid; }
+#content h3 { font-size: 1.2em; }
+#content h4 { font-size: 1em; font-weight: 700; }
+#content h5 { font-size: 1em; }
+#content .subheader { color: #777; }
+
+
+/* BREADCRUMB FIX (for unordered lists)
+  =========================================================== */
+
+#breadcrumb ul li:first-child:before { content: ""; }
+/* Stops the seperator being applied to the first item of the breadcrumb */
+
+#breadcrumb ul li:last-child:before { font-weight: normal; }
+/* Stops the last seperator from bolding */
+
+#breadcrumb ul li:last-child {
+	font-size: 11px;
+	font-weight: bold; }
+ /* Highlights the last item in the breadcrumb*/
+
+
+/***************************************************************
+   CUSTOM STYLES
+	This code allows the implementation of css unique to the 
+	individual site.
+ ***************************************************************/
+
+#content .page-title {
+	letter-spacing: -0.03em;
+	color: #666699;
+	margin: 0 0 30px 0;
+	padding: 0;
+	font: normal 40px/45px "Open Sans", sans-serif;
+}
+
+#content .page-subtitle {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #666699;
+	padding: 0;
+	margin: 0; }
+	
+#content .remove-top { margin-top: 0!important; }
+#content .remove-bottom { margin-bottom: 0!important; }
+#content .add-top { margin-top: 20px!important; }
+#content .add-bottom { margin-bottom: 20px!important; }
+
+#content .header-red {
+	font-size: 16px;
+	color: #990000;
+	font-weight: bold;
+	padding: 12px 0 0 0;
+}
+
+#content .red-text { color: #F00; }
+
+#content .grey-text {
+	font-size: 10px;
+	color: #666666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#content .image-float-left {
+	float: left;
+	padding: 0 15px 10px 0;
+}
+
+#content .image-float-right {
+	float: right;
+	padding: 0 0 10px 15px;
+}
+
+/*** Individual Styles *********************************************/
+
+
+br.clear {
+	clear: both;
+}
+
+a.more {
+	font: 700 .7em/1.4em 'Open Sans', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 20px 0 10px 0px!important;
+	border: 0 !important;
+}
+
+a.more:after {
+  display: inline-block;
+  font-family: FontAwesome;
+  content: '\202f\f101';
+}
+
+a.help:link, 
+a.help:visited { 
+	display: block;
+	font: 700 1em/1.4em 'Open Sans', serif;
+	letter-spacing: 0.1em;
+	color: #fff!important;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin: 30px 0 0 0!important;
+	padding: 15px!important;
+	border: 0!important;
+	border-radius: 5px!important;
+	background: #7fbf4d;
+}
+a.help:hover,
+a.help:active {
+	background: #ff9900;
+	transition: 0.2s;
+	-webkit-transition: 0.2s; 
+	cursor: pointer; }
+/* WEEKLY CALENDAR BUTTONS 
+  =========================================================== */
+
+#content a.calendar_button:link,
+#content a.calendar_button:visited {
+	display: block;
+	padding: 3px 10px 2px 10px!important;
+	color: #777;
+	font-size: 12px;
+	font-weight: 700;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	margin: 5px 0px 10px 8px!important;
+	width: 202px;
+}
+#content a.calendar_button:hover,
+#content a.calendar_button:active {
+	color: white;
+	background-color: #F60;
+	border: 1px solid #F60;
+}
+#content a.calendar_button:before { 
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 1.2em;
+	font-weight: normal;
+	content: "\f073";
+	padding-right: 5px; 
+}

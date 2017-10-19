@@ -1,0 +1,32 @@
+<!--**************************************************************************
+SUNY Downstate Global Header
+by Brett Laurance
+Last updated: June 07, 2013
+Ensure the images 'ds_header_downstate_logo.gif' and 'ds_header_curve.gif' are in the same folder as this file and the stylesheet 'ds_header.css' is in the folder 'css/' on the main server.
+-->
+
+<table id="header-table" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="2" align="left" valign="top" id="logo"><a href="http://www.downstate.edu/"><img src="http://www.downstate.edu/includes/ds_header_downstate_logo.gif" alt="SUNY Downstate Medical Center" width="193" height="60" border="0" /></a></td>
+    <td id="spacer-dark-gray"></td>
+    <td nowrap="nowrap" id="toolbar"><a class="find_physician" href="http://www.downstate.edu/find-a-physician.html"><strong>Find A Physician</strong></a><a href="http://www.downstate.edu/">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://library.downstate.edu/">Library</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://sls.downstate.edu/mydownstate/">myDownstate</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.downstate.edu/news_releases/news_releases.html">Newsroom</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.downstate.edu/a-z/">A-Z Guide</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.downstate.edu/email/reminder-email.html">E-mail</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.downstate.edu/contact.html">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.downstate.edu/directions/">Directions</a></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" id="curve"><img src="http://www.downstate.edu/includes/ds_header_curve.gif" alt="curve gif" width="119" height="42" /></td>
+    <td nowrap="nowrap" id="search">
+        <div id="search-links">  
+            <a href="http://www.downstate.edu/sd/">Advanced&nbsp;Search<br />
+            Phone&nbsp;Directory</a>
+        </div>
+      <form method="get" action="http://www.google.com/custom" style="background-color:transparent;">
+         <input class="text-box" name="q" type="text" size="20" maxlength="255" value="Search" onFocus="if(this.value=='Search'){this.value='';}" />
+         <input type="submit" name="btnG" value="Go" />
+         <input type="hidden" name="cof" value="GL:0;" />
+         <input type="hidden" name="domains" value="www.downstate.edu" />
+         <input type="hidden" name="sitesearch" value="www.downstate.edu" />
+      </form>
+    </td>
+  </tr>
+</table>
+
+<!--***** End of Global Header ********************************************-->

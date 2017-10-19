@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* MULTICOLUMN LAYOUT
+  =========================================================== */
+
+#content #col-container * { margin:0; padding:0; } 
+#content #col-container { width: 800px; }
+#content #col-container .col { 
+	display: block;
+	float: left;
+	width: 253px;
+	margin-right: 20px;
+}
+#content #col-container .col:last-child {	margin-right: 0px; }
+#content #col-container .two { width: 526px; }
+#content #col-container h1 {
+	font: 400 1em/1.4em 'Open Sans', serif;
+	margin: 1em 0;
+	padding: 0.3em 0;
+	border-top:  #ddd 1px solid; 
+	border-bottom: #ddd 1px solid;
+}
+#content #col-container h2 {
+	font: 700 .8em/1.4em 'Open Sans', serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin: 0 0 1em 0;
+	border: 0;
+}
+#content #col-container h3 {
+	font: 700 .6em/1.4em 'Open Sans', serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-style: italic;
+	margin: 0 0 1em 0;
+	border: 0;	color: inherit;
+}
+#content #col-container ul { list-style-type: none; }
+#content #col-container p,
+#content #col-container li {
+	font: 400 13px/1.4em 'Open Sans', serif;
+	color: #666;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: .8em;
+}
+#content #col-container p { margin-left: 0; }
+#content #col-container li { margin-left: 1.5em; } /* <--value should match */
+#content #col-container li:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  width: 1.5em;					/* <--value should match */
+  margin-left: -1.5em;		/* <--value should match */
+  content: '\F138';
+  color: #ccc;
+}
+#content #col-container li a { color: #666; text-decoration: none; border:0; }
+#content #col-container li a:hover { color: #fe6d4c; border-bottom: 1px #fe6d4c solid;}
+
+/* secondary level lists */
+#content #col-container li li {  
+	margin: 1em 0 1em 1em;
+	font: 400 1em/1.4em 'Open Sans', serif;
+}
+#content #col-container li li:before {
+	width: 1em;
+	margin-left: -1em;
+	content: '\F105';
+}
+#content #col-container .description { font: 400 .8em/1.4em 'Open Sans', serif; }
+
+/* Table styles */
+
+#content #col-container th,
+#content #col-container td {
+	vertical-align: top;
+	padding: 5px;
+}
+#content #col-container th { text-transform: uppercase; }
+#content #col-container td { background: transparent;  }
+#content #col-container .col1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #333;
+}
+#content #col-container .col1 p:first-child {
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+table.act-table * { /* My new, improved table design */
+	padding: 0;
+	margin: 0;
+}
+
+table.act-table {
+	border-bottom: 2px solid #0099FF;
+	border-collapse: collapse;
+}
+
+table.act-table caption {
+	margin: 0;
+	padding: 5px 0 0 0;
+	caption-side: bottom;
+	font-size: 0.8em;
+	font-style: italic;
+}
+table.act-table .table-col1 { color: #006699; font-style: italic; }
+table.act-table .table-col2 {	background-color: #DBE5F1; }
+table.act-table .table-col3 { background-color: #EAF1DD; }
+
+table.act-table th,
+table.act-table td {
+	margin: 0;
+	padding: 5px 10px;
+	vertical-align: top;
+	line-height: 1.3em;
+	background-color: white!important;
+}
+table.act-table th {
+	border-top: 2px solid #09F;
+	border-bottom: 1px solid #09F;
+	font-weight: bold;
+	text-align: center;
+	color:#036;
+	font-size: 1.2em;
+}
+
+table.act-table td {
+	border-bottom: 1px dotted #999;
+}
+
+table.act-table tfoot {
+	background-color: #C3D6E1;
+	font-weight: bold;
+}
+
+table.act-table p,
+table.act-table li {
+	margin: 0 0 10px 0px;
+	padding: 0px;
+}
+
+table.act-table ul {
+	margin: 0px 0px 10px 10px;
+	padding: 0px 0px 0px 10px;
+}
